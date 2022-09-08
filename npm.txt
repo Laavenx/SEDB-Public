@@ -1,0 +1,4 @@
+npx svelte-add@latest bootstrap
+npm install query-string
+npm install eslint --save-dev
+npm install --save-dev eslint-plugin-svelte3

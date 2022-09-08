@@ -1,0 +1,47 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+/* Import only what you need from Bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+a {
+    color: #4eb9ddd1;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "frauleinregular";
+    src: url("/static/fonts/frau-webfont.woff2") format("woff2"),
+        url("/static/fonts/frau-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "space_engineersregular";
+    src: url("/static/fonts/space_engineers-webfont.woff2") format("woff2"),
+        url("/static/fonts/space_engineers-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    background-image: url("/static/SpaceEngineers023.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: space_engineersregular;
+}
+
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+  }
+
+button {
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+}

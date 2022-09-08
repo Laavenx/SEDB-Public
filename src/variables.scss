@@ -1,0 +1,8 @@
+/* Variables and mixins declared here will be available in all other SCSS files */
+@import "bootstrap/scss/functions"; /* Override Bootstrap's variables here */
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+$base-color: rgb(41,54,62);
+$black-color: #1e2123fa;
+$grey-color: #2b3032;
+$hover-color-blue: #87b6c5d1;

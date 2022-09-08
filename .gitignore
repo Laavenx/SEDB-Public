@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+/static/static/Ammo
+/static/static/Blocks
+/static/static/Components
+/static/static/fonts
+/static/static/Items
+/static/static/misc
+/static/static/favicon.webp

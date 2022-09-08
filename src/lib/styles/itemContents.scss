@@ -1,0 +1,79 @@
+@media (min-width: 785px) {
+    .orderr-first {
+        order: 0 !important;
+    }
+}
+
+.orderr-first {
+    order: 1;
+}
+
+.compbox {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.compbox-link:hover {
+    background-color: $hover-color-blue;
+    color: white;
+}
+
+.wrap {
+    max-width: 53.5rem;
+}
+
+.component {
+    width: 42.66px;
+    height: 42.66px;
+}
+
+.textbox {
+    max-width: 29.5rem;
+    width: 100%;
+    margin: 0rem 1rem 0rem 1rem;
+    overflow-wrap: break-word;
+}
+
+.name {
+    max-width: 200px;
+    overflow-wrap: break-word;
+}
+
+.amount {
+    margin-left: auto;
+    padding: 5px;
+    color: white;
+}
+
+.item {
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.title {
+    background-color: $grey-color;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    overflow-wrap: break-word;
+}
+
+.itembox {
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 20rem;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.40625rem;
+}
+
+.recipe {
+    margin-bottom: 2px;
+}
+
+.icon-container {
+    width: 128px;
+    height: 128px;
+}

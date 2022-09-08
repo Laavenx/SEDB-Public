@@ -1,0 +1,37 @@
+SBC modding/modelling (affects modAPI too)
+- Ammo got ExplosiveDamageMultiplier tag in its BasicProperties (not in the magazine)
+- All blocks got MirroringCenter (integer vector just like Center, default (Size-1)/2 ) and DestroyEffectScale (float, default 1)
+- All physical items got DestroySound (string, default empty)
+- New cube topology options for deformable armor (physical shapes):
+		RaisedSlopedCorner
+		SlopeTransition
+		SlopeTransitionBase
+		SlopeTransitionBaseMirrored
+		SlopeTransitionMirrored
+		SlopeTransitionTip
+		SlopeTransitionTipMirrored
+		SquareSlopedCornerBase
+		SquareSlopedCornerTip
+		SquareSlopedCornerTipInv
+- Character got Gender (used by cockpits, see below)
+- Cockpit got CharacterAnimationMale and CharacterAnimationFemale (string, default empty; the old tag is still used when gender or this respective tag is not defined)
+
+
+ModAPI:
+- IMyEntityCapacitorComponent was added (used by railguns, get using: block.Components.GetAs<IMyEntityCapacitorComponent>() )
+- MyCubeGrid got:
+    GetOwnerLoginTimeSeconds(), GetOwnerLogoutTimeSeconds()
+    JumpWithWheels(), SendAbortJump(), RequestJump()
+    PlayParticleBroadcast(), StopSmoke(), IsSmokeParticleActive getter
+    ContainerOpened(), CompetetiveContainerOpened() (these should probably not be touched)
+    KillAllCharacters() got bool removePilot parameter
+    bool CloseGrid field (which seems unused)
+- My3DEntitySoundEmitter's PlaySound() got bool forcePlaySound parameter (which plays even if entity is not in scene, does nothing for non-entity emitter)
+- MyGunBase got User getter
+- MyAPIGateway.Multiplayer.ReplicateEntityForClient() was removed (it was also empty in previous major so it did nothing anyway)
+- MyObjectBuilder_SessionSettings got EnableTeamScoreCounters (accessible via MyAPIGateway.Session.SessionSettings)
+- MyFontDefinition got static SplitIntoSameHeightStrings()
+- IMyEntity got StopPhysicsActivation get&set
+- IMyConfigDedicated got ChatAntiSpamEnabled, SameMessageTimeout, SpamMessagesTime, SpamMessagesTimeout
+- IMyCubeGrid got InvokeDepressurizeEffect() (synchronized)
+- Lots of interfaces got comments/xmldoc on them, some useful and some redundant xD

@@ -1,0 +1,31 @@
+.datagrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar {
+    margin-bottom: 0.3rem;
+}
+
+.paginator {
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.filler {
+    width: 500px;
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+}
+
+.info-wrapper {
+    margin-top: 10%;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 12px;
+    background-color: rgb(41,54,62);
+}
+h2 {
+    margin: 0;
+}
