@@ -1,17 +1,12 @@
-# create-svelte
+# Space engineers fan wiki website sedb.info
+## Assets not included ( belong to Keen Software House )
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Features:
+On the website you can browse through the catalogue of in-game blocks, components, items and some tips on modding the game. Clicking on a item shows its contents ( in-game properties ).  
 
 ```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
+# launching the app
+npm run dev
 ```
 
 ## Developing
@@ -26,13 +21,8 @@ npm run dev -- --open
 ```
 
 ## Building
-
-To create a production version of your app:
-
 ```bash
 npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
