@@ -1,13 +1,8 @@
 # Space engineers fan wiki website sedb.info
-## Assets not included ( belong to Keen Software House )
+### Assets not included ( belong to Keen Software House )
 
 ## Features:
 On the website you can browse through the catalogue of in-game blocks, components, items and some tips on modding the game. Clicking on a item shows its contents ( in-game properties ).  
-
-```bash
-# launching the app
-npm run dev
-```
 
 ## Developing
 
