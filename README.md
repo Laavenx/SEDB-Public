@@ -1,12 +1,16 @@
-# Space engineers fan wiki website sedb.info
+# Space engineers fan wiki website <a href="https:\\sedb.info">sedb.info</a>
 ### Assets not included ( belong to Keen Software House )
 
 ## Features:
-On the website you can browse through the catalogue of in-game blocks, components, items and some tips on modding the game. Clicking on a item shows its contents ( in-game properties ).  
+* Display catalogue of in-game items.
+* Show properties of in-game items.
+* Page dedicated to a list of helpful links regarding game modding.
 
-## Developing
+![image](https://user-images.githubusercontent.com/57064828/196532493-d7db75e1-d204-43fe-b370-c153420cb772.png)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Usage
+
+Once you've pulled the project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
