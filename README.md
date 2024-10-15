@@ -1,4 +1,4 @@
-# Space engineers fan wiki website <a href="https:\\sedb.info">sedb.info</a>
+# Space engineers fan wiki website
 ### Assets not included ( belong to Keen Software House )
 
 ## Features:
