@@ -10,7 +10,7 @@
 
 ## Usage
 
-Once you've pulled the project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've pulled the project and installed dependencies with `npm install` (or `pnpm install` or `yarn`) also install `npm install mariadb`, start a development server:
 
 ```bash
 npm run dev
